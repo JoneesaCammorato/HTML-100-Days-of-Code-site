@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<!-- Below is a select option for which file, file button to chose and submit button as well as date button-->
+<!--froms always need to be under form tag- accept only takes certain files-->
+
+<body>
+  <h1>File Input</h1>
+  <form class="" action="index.html" method="post">
+
+
+    <label for="Description">Choose a Description:</label>
+    <select id="description-select">
+      <option  value="">--Please choose an option--</option>
+      <option value="Resume">Resume</option>
+      <option value="Cover letter ">C/V</option>
+    </select>
+
+    <br>
+    <input type="file" name="file"  accept="application/pdf,application/msword" required>
+    <br>
+    <input type="date" name="" value="">
+    <br>
+    <input type="submit">
+  </form>
+</body>
+
+</html>
